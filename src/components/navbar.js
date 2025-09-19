@@ -76,7 +76,7 @@ const Navbar = ({ isScrolled, isMenuOpen, setIsMenuOpen }) => {
           <circle cx="11" cy="11" r="8" />
           <line x1="21" y1="21" x2="16.65" y2="16.65" />
         </svg> */}
-        <Link href="#booking">
+        <Link href="/contact#booking">
           <button
             className={`px-4 py-2 rounded-full font-semibold  ml-4 transition-all duration-500 sm:w-auto shadow-md ${
               isScrolled

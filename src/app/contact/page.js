@@ -40,7 +40,7 @@ export default function Contact() {
         isMenuOpen={isMenuOpen}
         setIsMenuOpen={setIsMenuOpen}
       />
-      <section className="relative min-h-[400] flex items-center justify-center text-center">
+      <section className="relative min-h-100 flex items-center justify-center text-center">
         {/* Background Image */}
         <div className="absolute inset-0">
           <div className="bg-[url('/hero.avif')] bg-cover bg-center bg-no-repeat w-full h-full" />
@@ -153,9 +153,10 @@ export default function Contact() {
                     </div>
                     <div className="ml-4 mb-4">
                       <h3 className="text-lg font-medium leading-6 text-gray-900">
-                        Working hours
+                        Open hours
                       </h3>
-                      <p>Daily: 08:00 - 22:00 (WITA/UTC+8)</p>
+                      <p>Daily: 8:00 am - 10:00 pm (WITA/UTC+8)</p>
+                      <p className="font-semibold">Last order: 9:00 pm</p>
                     </div>
                   </li>
                 </ul>

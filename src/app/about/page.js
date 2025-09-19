@@ -39,7 +39,7 @@ export default function About() {
         isMenuOpen={isMenuOpen}
         setIsMenuOpen={setIsMenuOpen}
       />
-      <section className="relative min-h-[400] flex items-center justify-center text-center">
+      <section className="relative min-h-100 flex items-center justify-center text-center">
         {/* Background Image */}
         <div className="absolute inset-0">
           <div className="bg-[url('/hero.avif')] bg-cover bg-center bg-no-repeat w-full h-full" />
@@ -63,10 +63,10 @@ export default function About() {
             width={600}
             height={100}
             className="w-full object-cover rounded-2xl"
-            src={assets.restaurant_4}
+            src={assets.restaurant_2}
             alt="Dining space at KAVANA"
           />
-          <div className="gap-1 max-w-72 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white size-16 flex items-center justify-center aspect-square backdrop-blur rounded-full">
+          {/* <div className="gap-1 max-w-72 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white size-16 flex items-center justify-center aspect-square backdrop-blur rounded-full">
             <svg
               width="15"
               height="18"
@@ -83,7 +83,7 @@ export default function About() {
                 strokeLinejoin="round"
               />
             </svg>
-          </div>
+          </div> */}
         </div>
 
         {/* Text Section */}
@@ -93,7 +93,7 @@ export default function About() {
           </h1>
           <div className="w-24 h-[3px] rounded-full bg-gradient-to-r from-green-900 to-[#DDD9FF]"></div>
 
-          <p className="mt-8">
+          <p className="mt-4">
             <strong>KAVANA PENIDA</strong> is a serene restaurant and bar
             nestled just a ten‑minute stroll from Crystal Bay Beach. Hidden
             amongst lush palms and bamboo pavilions, we invite you to linger
@@ -111,18 +111,17 @@ export default function About() {
 
           <p className="mt-4">
             Located in the Crystal Bay area of Nusa Penida, we are open daily.
-            Breakfast is served from 07:30–10:30 (WITA), lunch is available all
-            day, and dinner is served until 21:00 (WITA). A ten‑minute walk from
+            <span className="font-semibold">Breakfast is served from 7:30 am – 10:30 am (WITA/UTC+8), lunch is available all
+            day, and dinner is served until 9:00 pm.</span> A ten‑minute walk from
             the beach brings you straight to our palm‑shaded entrance.
           </p>
 
           <p className="mt-4  font-semibold text-slate-700">
-            WhatsApp:{" "}
             <a
-              href="https://wa.me/6281237558789"
+              href="/contact#booking"
               className="text-green-900 hover:underline"
             >
-              +62 812‑3755‑8789
+              Book now →
             </a>
           </p>
         </div>

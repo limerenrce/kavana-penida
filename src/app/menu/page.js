@@ -39,7 +39,7 @@ export default function Menu() {
         isMenuOpen={isMenuOpen}
         setIsMenuOpen={setIsMenuOpen}
       />
-      <section className="relative min-h-[400] flex items-center justify-center text-center">
+      <section className="relative min-h-100 flex items-center justify-center text-center">
         {/* Background Image */}
         <div className="absolute inset-0">
           <div className="bg-[url('/hero.avif')] bg-cover bg-center bg-no-repeat w-full h-full" />
